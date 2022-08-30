@@ -9,8 +9,8 @@ public class Main {
             String lastName = "Ivanov ";
             String foolName = lastName + firstName + middleName;
             System.out.println("Ф.И.О. сотрудника " + foolName);
-            String up = "Ivanov Ivan Ivanovich";
-            System.out.println(up.toUpperCase());
+            String foolName2 = "Ivanov Ivan Ivanovich";
+            System.out.println(foolName2.toUpperCase());
         }
         ///Задача №3
         String firstName = "Семён ";
