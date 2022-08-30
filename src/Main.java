@@ -1,11 +1,18 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        ///Задача №1
+        ///Задачи №1,2
         String firstName = "Ivan ";
         String middleName = "Ivanovich ";
-        String lastName = "Ivanov";
-        String foolName = firstName + middleName + lastName;
+        String lastName = "Ivanov ";
+        String foolName = lastName + firstName + middleName;
         System.out.println("Ф.И.О. сотрудника " + foolName);
+        String up = "Ivanov Ivan Ivanovich";
+        System.out.println(up.toUpperCase());
+
+        }
+
+
 
     }
-}
